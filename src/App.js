@@ -3,46 +3,39 @@ import './App.css';
 
 
 function App() {
-  const [rangeArr, setRangeArr] = useState([]);
-  const [result, setResult] = useState(0)
+  const [rangeArr, setRangeArr] = useState([1,2,3]);
+  const [result, setResult] = useState(0);
 
 
-  const addRange = (e) => {
-    // setResult(Number(result) + (isNaN(Number(e.target.value)) ? 0 : Number(e.target.value) ))
-    setRangeArr(isNaN(Number(e.target.value) ? 0 : Number(e.target.value)))
+  const addRange = (e = 0) => {
+    e = e.target.value;
+    console.log('addRange', e);
+    //let arr =
+      setRangeArr(rangeArr.map((el,i) => Math.abs(e *(i+1) )));
+      console.log(rangeArr);
+
   };
 
   const chResult = (val) => {
+    console.log('chResult');
     setResult(Number(result) + val);
-    fillArr(val);
-    return result;
-  }
+  };
 
   const resset = () => {
-    setRangeArr(0)
-    setResult(0)
-  }
-  const fillArr = (val) => {
-    let [arrPos, arrNeg] = [[], []];
-    let temp = 0
-    for (let i = 0; i < 3; i++) {
-      arrPos.push(temp += val)
-      arrNeg.push(temp -= val)
-    }
-    console.log([arrPos, arrNeg]);
-    return [arrPos, arrNeg]
-  }
+    console.log('resset');
+    setRangeArr([1,2,3]);
+    setResult(0);
+  };
+
 
   return (
     <div className="App">
+      {rangeArr.reverse().map((el) => <button key={el+Math.random()} onClick={() => chResult(-el)}>{-el}</button>)}
 
-      <input type="text" onChange={addRange}/>
+      <input type="number" onChange={addRange}/>
 
       {
-
-        // fillArr.map(el => <button key={el} onClick={() => chResult(el)}>{el}</button>)
-
-
+        rangeArr.reverse().map((el) => <button key={el+Math.random()} onClick={() => chResult(el)}>{el}</button>)
       }
 
       <h2>{result}</h2>
