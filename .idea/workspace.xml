@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="916c4565-de43-41a8-acae-6f8a92531915" name="Default Changelist" comment="">
+    <list default="true" id="916c4565-de43-41a8-acae-6f8a92531915" name="Default Changelist" comment="--install">
+      <change afterPath="$PROJECT_DIR$/src/Btn.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,14 +25,23 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -58,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586037191197</updated>
       <workItem from="1586037192876" duration="706000" />
-      <workItem from="1586047169779" duration="273000" />
+      <workItem from="1586047169779" duration="11543000" />
     </task>
     <task id="LOCAL-00001" summary="--install">
       <created>1586047284173</created>
@@ -67,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586047284173</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="--install">
+      <created>1586047650653</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586047650654</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,9 +96,25 @@
     <option name="LAST_COMMIT_MESSAGE" value="--install" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="314" y="44" key="CommitChangelistDialog2" timestamp="1586047283887">
+    <state x="320" y="108" key="#ESLint" timestamp="1586066067645">
       <screen x="0" y="23" width="1440" height="839" />
     </state>
-    <state x="314" y="44" key="CommitChangelistDialog2/0.23.1440.839@0.23.1440.839" timestamp="1586047283887" />
+    <state x="320" y="108" key="#ESLint/0.23.1440.839@0.23.1440.839" timestamp="1586066067645" />
+    <state x="320" y="108" key="#Inspections" timestamp="1586052645943">
+      <screen x="0" y="23" width="1440" height="839" />
+    </state>
+    <state x="320" y="108" key="#Inspections/0.23.1440.839@0.23.1440.839" timestamp="1586052645943" />
+    <state x="314" y="44" key="CommitChangelistDialog2" timestamp="1586062448440">
+      <screen x="0" y="23" width="1440" height="839" />
+    </state>
+    <state x="314" y="44" key="CommitChangelistDialog2/0.23.1440.839@0.23.1440.839" timestamp="1586062448440" />
+    <state x="320" y="182" key="Vcs.Push.Dialog.v2" timestamp="1586047652732">
+      <screen x="0" y="23" width="1440" height="839" />
+    </state>
+    <state x="320" y="182" key="Vcs.Push.Dialog.v2/0.23.1440.839@0.23.1440.839" timestamp="1586047652732" />
+    <state x="385" y="186" width="670" height="676" key="search.everywhere.popup" timestamp="1586066220121">
+      <screen x="0" y="23" width="1440" height="839" />
+    </state>
+    <state x="385" y="186" width="670" height="676" key="search.everywhere.popup/0.23.1440.839@0.23.1440.839" timestamp="1586066220121" />
   </component>
 </project>
