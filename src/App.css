@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+.input-form{
+  margin: 10px;
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+.btn-count{
+  margin: 3px;
+  padding: 5px;
+}

@@ -10,8 +10,9 @@ function App() {
   const addRange = (e = 0) => {
     e = e.target.value;
     console.log('addRange', e);
-    //let arr =
-      setRangeArr(rangeArr.map((el,i) => Math.abs(e *(i+1) )));
+    if(e == 0 ){e =1}
+
+    setRangeArr(rangeArr.map((el,i) => Math.abs(e *(i+1) )));
       console.log(rangeArr);
 
   };
@@ -30,17 +31,17 @@ function App() {
 
   return (
     <div className="App">
-      {rangeArr.reverse().map((el) => <button key={el+Math.random()} onClick={() => chResult(-el)}>{-el}</button>)}
+      {rangeArr.reverse().map((el) => <button className = 'btn-count' key={el+Math.random()} onClick={() => chResult(-el)}>{-el}</button>)}
 
-      <input type="number" onChange={addRange}/>
+      <input className= 'input-form' type="number" onChange={addRange}/>
 
       {
-        rangeArr.reverse().map((el) => <button key={el+Math.random()} onClick={() => chResult(el)}>{el}</button>)
+        rangeArr.reverse().map((el) => <button className = 'btn-count' key={el+Math.random()} onClick={() => chResult(el)}>{el}</button>)
       }
 
       <h2>{result}</h2>
 
-      <button onClick={resset}>Resset</button>
+      <button className = 'btn-count' onClick={resset}>Resset</button>
 
     </div>
   );
