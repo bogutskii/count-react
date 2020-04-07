@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/count-react/static/css/main.ec2feec6.chunk.css",
-    "main.js": "/count-react/static/js/main.a3b79557.chunk.js",
-    "main.js.map": "/count-react/static/js/main.a3b79557.chunk.js.map",
+    "main.css": "/count-react/static/css/main.c7cf6461.chunk.css",
+    "main.js": "/count-react/static/js/main.f59ff27e.chunk.js",
+    "main.js.map": "/count-react/static/js/main.f59ff27e.chunk.js.map",
     "runtime-main.js": "/count-react/static/js/runtime-main.77831d02.js",
     "runtime-main.js.map": "/count-react/static/js/runtime-main.77831d02.js.map",
     "static/js/2.0f83206d.chunk.js": "/count-react/static/js/2.0f83206d.chunk.js",
     "static/js/2.0f83206d.chunk.js.map": "/count-react/static/js/2.0f83206d.chunk.js.map",
     "index.html": "/count-react/index.html",
-    "precache-manifest.058bcc7c06dad2a14bbc0f99cc08d596.js": "/count-react/precache-manifest.058bcc7c06dad2a14bbc0f99cc08d596.js",
+    "precache-manifest.214729f3b2ceec29922702b701e8b717.js": "/count-react/precache-manifest.214729f3b2ceec29922702b701e8b717.js",
     "service-worker.js": "/count-react/service-worker.js",
-    "static/css/main.ec2feec6.chunk.css.map": "/count-react/static/css/main.ec2feec6.chunk.css.map",
+    "static/css/main.c7cf6461.chunk.css.map": "/count-react/static/css/main.c7cf6461.chunk.css.map",
     "static/js/2.0f83206d.chunk.js.LICENSE.txt": "/count-react/static/js/2.0f83206d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.77831d02.js",
     "static/js/2.0f83206d.chunk.js",
-    "static/css/main.ec2feec6.chunk.css",
-    "static/js/main.a3b79557.chunk.js"
+    "static/css/main.c7cf6461.chunk.css",
+    "static/js/main.f59ff27e.chunk.js"
   ]
 }
